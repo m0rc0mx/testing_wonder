@@ -1,13 +1,24 @@
 {
   "version": 1,
+  "plugins": {
+    "poc-ssrf": {
+      "name": "PoC SSRF",
+      "repo": "http://127.0.0.1:9090/poc-ssrf",
+      "zip": "http://127.0.0.1:9090/poc-ssrf.zip",
+      "summary": "Módulo de prueba para validar la estructura del JSON.",
+      "version": "1.0.0",
+      "image": "http://127.0.0.1:9999/poc-ssrf.png",
+      "group": "editor"
+    }
+  },
   "themes": {
     "poc-theme": {
       "name": "PoC Theme",
-      "repo": "https://gitlab.com/tu-usuario/tu-repo/-/raw/main/poc-theme",
-      "zip": "http://127.0.0.1:9091/evil.zip",
-      "summary": "PoC",
+      "repo": "http://127.0.0.1:9090/poc-theme",
+      "zip": "http://127.0.0.1:9090/poc-theme.zip",
+      "summary": "Tema de prueba para validar la estructura del JSON.",
       "version": "1.0.0",
-      "image": "https://gitlab.com/tu-usuario/tu-repo/-/raw/main/poc-theme.png"
+      "image": "http://127.0.0.1:9090/poc-theme.png"
     }
   }
 }
