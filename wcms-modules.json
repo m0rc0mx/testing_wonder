@@ -7,7 +7,7 @@
       "zip": "http://127.0.0.1:9090/poc-ssrf.zip",
       "summary": "Módulo de prueba para validar la estructura del JSON.",
       "version": "1.0.0",
-      "image": "http://127.0.0.1:9999/poc-ssrf.png",
+      "image": "http://127.0.0.1:9090/poc-ssrf.png",
       "group": "editor"
     }
   },
