@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "themes": {
+    "poc-theme": {
+      "name": "PoC Theme",
+      "repo": "https://gitlab.com/tu-usuario/tu-repo/-/raw/main/poc-theme",
+      "zip": "http://127.0.0.1:9091/evil.zip",
+      "summary": "PoC",
+      "version": "1.0.0",
+      "image": "https://gitlab.com/tu-usuario/tu-repo/-/raw/main/poc-theme.png"
+    }
+  }
+}
